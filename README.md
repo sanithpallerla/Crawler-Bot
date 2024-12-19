@@ -53,7 +53,7 @@ integration, and probabilistic modeling.
 For a function \( f(x) \) over a domain \( D \):
 
 \[
-I \approx \frac{1}{N} \sum_{i=1}^N f(x_i)
+I $\approx$ $\frac{1}{N} \sum_{i=1}^N f(x_i)$
 \]
 
 Where:
@@ -78,7 +78,7 @@ To estimate \( \pi \), consider a unit square with a quarter-circle of radius \(
 calculate the ratio of points inside the quarter-circle to total points.
 
 \[
-\pi \approx 4 \times \frac{\text{Number of points inside circle}}{\text{Total number of points}}
+$\pi$ $\approx$ 4 $\times$ $\frac{\text{Number of points inside circle}}{\text{Total number of points}}$
 \]
 
 ---
@@ -108,13 +108,13 @@ For a given state \( s \), action \( a \), reward \( r \), next state \( s' \), 
 update rule is:
 
 \[
-Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right]
+Q(s, a) $\leftarrow$ Q(s, a) + $\alpha$ [ r + $\gamma$ Q(s', a') - Q(s, a) ]
 \]
 
 Where:
 
-- \( \alpha \): Learning rate (0 < \( \alpha \) ≤ 1).
-- \( \gamma \): Discount factor (0 ≤ \( \gamma \) ≤ 1).
+- \( $\alpha$ \): Learning rate (0 < \( $\alpha$ \) ≤ 1).
+- \( $\gamma$ \): Discount factor (0 ≤ \( $\gamma$ \) ≤ 1).
 - \( Q(s, a) \): Current action-value estimate.
 - \( Q(s', a') \): Action-value estimate for the next state-action pair.
 
@@ -262,4 +262,4 @@ Step 4: Executing the code
 
 ## Contributions
 
-# <div align="center"> Just Fork it and Implement you algorithm </div>
+# <div align="center"> Just Fork it and Implement you reinforcement algorithm </div>
