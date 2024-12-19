@@ -3,6 +3,10 @@
 @author: Ju Shen
 @email: jshen1@udayton.edu
 @date: 02-16-2023
+
+@Collaborator: Sanith Kumar Pallerla
+@email: pallerlas3@udayton.edu
+@date: 03-17-2023
 """
 
 from RLearning_f import ReinforceLearning as RL
